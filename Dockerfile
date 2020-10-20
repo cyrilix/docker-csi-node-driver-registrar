@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM golang:1.15-buster AS src
 
-ARG VERSION=v1.3.0
+ARG VERSION=v2.0.0
 ARG BUILDPLATFORM
 
 RUN git clone https://github.com/kubernetes-csi/node-driver-registrar.git /go/src/node-driver-registrar
